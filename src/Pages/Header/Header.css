@@ -1,0 +1,22 @@
+.navbar
+{
+    background-color: aquamarine;
+}
+.navbar .navbar-brand
+{
+    color: aliceblue;
+}
+.navbar .nav-link
+{
+    color: aliceblue !important;
+    text-decoration: none !important;
+    margin-right: 20px !important;
+}
+
+@media(max-width:600px)
+{
+.navbar .nav-link
+{
+    margin-right: 0;
+}
+}
